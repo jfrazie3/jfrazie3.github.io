@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Joe Frazier</title>
+		<title>{{ page.title }}</title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>
@@ -15,11 +15,8 @@
     		</ul>
 		</nav>
 		<div class="container">
-    		<div class="blurb">
-        		<h1>Joe Frazier</h1>
-				<p>Student and Athlete at Nebraska Wesleyan University <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
+			{{ content }}
+		</div><!-- /.container
 		<footer>
     		<ul>
         		<li><a href="mailto:jfrazie3@nebrwesleyan.edu">email</a></li>
