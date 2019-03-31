@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+  <title> Headings </title>
+</head>
+
+<body>
+
+<h2> Headings </h2>
+
+<p>
+  Headings are used by search engines to index the structure and content of web pages.
+</p>
+<p>
+  Headings have default sizes depending on their tag number (h#). However, these can be changed using the style attribute 
+  (h# style="font-size:#px;") 
+</p>
+
+<hr>
+<p> 
+  Horizontal rules (hr), shown above, creates a break in the HTML page with a line
+</p>
+
+
+</body>
+</html>
